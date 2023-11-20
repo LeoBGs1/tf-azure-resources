@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name   = "."
-    storage_account_name   = "."
-    container_name         = "."
+    resource_group_name   = "rg_sb_eastus_16857_1_170044512232"
+    storage_account_name   = "labgithubactions1911"
+    container_name         = "labgithubactions1911"
     key                    = "terraform.tfstate"
   }
 }
