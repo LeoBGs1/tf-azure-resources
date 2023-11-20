@@ -1,5 +1,5 @@
 variable "rg-name" {
-  default = "rg_sb_eastus_16857_1_170043586472"
+  default = "."
 }
 
 variable "location" {
