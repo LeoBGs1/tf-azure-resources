@@ -15,7 +15,7 @@ resource "azurerm_virtual_machine" "vm-principal" {
   location                      = var.location
   resource_group_name           = var.rg-name
   network_interface_ids         = [azurerm_network_interface.nic.id]
-  vm_size                       = "Standard_B2s"
+  vm_size                       = "Standard_B1s"
   delete_os_disk_on_termination = true
 
   storage_image_reference {
